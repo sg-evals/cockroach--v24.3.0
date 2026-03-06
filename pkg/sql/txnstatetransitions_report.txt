@@ -1,0 +1,171 @@
+// Code generated; DO NOT EDIT.
+
+Aborted{WasUpgraded:false}
+	handled events:
+		NonRetriableErr{IsCommit:false}
+		NonRetriableErr{IsCommit:true}
+		RetriableErr{CanAutoRetry:false, IsCommit:false}
+		RetriableErr{CanAutoRetry:false, IsCommit:true}
+		RetriableErr{CanAutoRetry:true, IsCommit:false}
+		RetriableErr{CanAutoRetry:true, IsCommit:true}
+		SavepointRollback{}
+		TxnFinishAborted{}
+		TxnRestart{}
+	missing events:
+		TxnCommittedDueToDDL{}
+		TxnCommittedWithShowCommitTimestamp{}
+		TxnFinishAbortedPLpgSQL{}
+		TxnFinishCommittedPLpgSQL{}
+		TxnFinishCommitted{}
+		TxnReleased{}
+		TxnStart{ImplicitTxn:false}
+		TxnStart{ImplicitTxn:true}
+		TxnUpgradeToExplicit{}
+Aborted{WasUpgraded:true}
+	handled events:
+		NonRetriableErr{IsCommit:false}
+		NonRetriableErr{IsCommit:true}
+		RetriableErr{CanAutoRetry:false, IsCommit:false}
+		RetriableErr{CanAutoRetry:false, IsCommit:true}
+		RetriableErr{CanAutoRetry:true, IsCommit:false}
+		RetriableErr{CanAutoRetry:true, IsCommit:true}
+		SavepointRollback{}
+		TxnFinishAborted{}
+		TxnRestart{}
+	missing events:
+		TxnCommittedDueToDDL{}
+		TxnCommittedWithShowCommitTimestamp{}
+		TxnFinishAbortedPLpgSQL{}
+		TxnFinishCommittedPLpgSQL{}
+		TxnFinishCommitted{}
+		TxnReleased{}
+		TxnStart{ImplicitTxn:false}
+		TxnStart{ImplicitTxn:true}
+		TxnUpgradeToExplicit{}
+CommitWait{}
+	handled events:
+		NonRetriableErr{IsCommit:false}
+		NonRetriableErr{IsCommit:true}
+		TxnFinishCommitted{}
+	missing events:
+		RetriableErr{CanAutoRetry:false, IsCommit:false}
+		RetriableErr{CanAutoRetry:false, IsCommit:true}
+		RetriableErr{CanAutoRetry:true, IsCommit:false}
+		RetriableErr{CanAutoRetry:true, IsCommit:true}
+		SavepointRollback{}
+		TxnCommittedDueToDDL{}
+		TxnCommittedWithShowCommitTimestamp{}
+		TxnFinishAbortedPLpgSQL{}
+		TxnFinishAborted{}
+		TxnFinishCommittedPLpgSQL{}
+		TxnReleased{}
+		TxnRestart{}
+		TxnStart{ImplicitTxn:false}
+		TxnStart{ImplicitTxn:true}
+		TxnUpgradeToExplicit{}
+NoTxn{}
+	handled events:
+		NonRetriableErr{IsCommit:false}
+		NonRetriableErr{IsCommit:true}
+		TxnStart{ImplicitTxn:false}
+		TxnStart{ImplicitTxn:true}
+	missing events:
+		RetriableErr{CanAutoRetry:false, IsCommit:false}
+		RetriableErr{CanAutoRetry:false, IsCommit:true}
+		RetriableErr{CanAutoRetry:true, IsCommit:false}
+		RetriableErr{CanAutoRetry:true, IsCommit:true}
+		SavepointRollback{}
+		TxnCommittedDueToDDL{}
+		TxnCommittedWithShowCommitTimestamp{}
+		TxnFinishAbortedPLpgSQL{}
+		TxnFinishAborted{}
+		TxnFinishCommittedPLpgSQL{}
+		TxnFinishCommitted{}
+		TxnReleased{}
+		TxnRestart{}
+		TxnUpgradeToExplicit{}
+Open{ImplicitTxn:false, WasUpgraded:false}
+	handled events:
+		NonRetriableErr{IsCommit:false}
+		NonRetriableErr{IsCommit:true}
+		RetriableErr{CanAutoRetry:false, IsCommit:false}
+		RetriableErr{CanAutoRetry:false, IsCommit:true}
+		RetriableErr{CanAutoRetry:true, IsCommit:false}
+		RetriableErr{CanAutoRetry:true, IsCommit:true}
+		TxnCommittedDueToDDL{}
+		TxnCommittedWithShowCommitTimestamp{}
+		TxnFinishAborted{}
+		TxnFinishCommitted{}
+		TxnReleased{}
+		TxnRestart{}
+	missing events:
+		SavepointRollback{}
+		TxnFinishAbortedPLpgSQL{}
+		TxnFinishCommittedPLpgSQL{}
+		TxnStart{ImplicitTxn:false}
+		TxnStart{ImplicitTxn:true}
+		TxnUpgradeToExplicit{}
+Open{ImplicitTxn:false, WasUpgraded:true}
+	handled events:
+		NonRetriableErr{IsCommit:false}
+		NonRetriableErr{IsCommit:true}
+		RetriableErr{CanAutoRetry:false, IsCommit:false}
+		RetriableErr{CanAutoRetry:false, IsCommit:true}
+		RetriableErr{CanAutoRetry:true, IsCommit:false}
+		RetriableErr{CanAutoRetry:true, IsCommit:true}
+		TxnCommittedDueToDDL{}
+		TxnCommittedWithShowCommitTimestamp{}
+		TxnFinishAborted{}
+		TxnFinishCommitted{}
+		TxnReleased{}
+		TxnRestart{}
+	missing events:
+		SavepointRollback{}
+		TxnFinishAbortedPLpgSQL{}
+		TxnFinishCommittedPLpgSQL{}
+		TxnStart{ImplicitTxn:false}
+		TxnStart{ImplicitTxn:true}
+		TxnUpgradeToExplicit{}
+Open{ImplicitTxn:true, WasUpgraded:false}
+	handled events:
+		NonRetriableErr{IsCommit:false}
+		NonRetriableErr{IsCommit:true}
+		RetriableErr{CanAutoRetry:false, IsCommit:false}
+		RetriableErr{CanAutoRetry:false, IsCommit:true}
+		RetriableErr{CanAutoRetry:true, IsCommit:false}
+		RetriableErr{CanAutoRetry:true, IsCommit:true}
+		TxnCommittedDueToDDL{}
+		TxnFinishAbortedPLpgSQL{}
+		TxnFinishAborted{}
+		TxnFinishCommittedPLpgSQL{}
+		TxnFinishCommitted{}
+		TxnUpgradeToExplicit{}
+	missing events:
+		SavepointRollback{}
+		TxnCommittedWithShowCommitTimestamp{}
+		TxnReleased{}
+		TxnRestart{}
+		TxnStart{ImplicitTxn:false}
+		TxnStart{ImplicitTxn:true}
+Open{ImplicitTxn:true, WasUpgraded:true}
+	unreachable!
+	handled events:
+		NonRetriableErr{IsCommit:true}
+		RetriableErr{CanAutoRetry:false, IsCommit:true}
+		TxnCommittedDueToDDL{}
+		TxnFinishAborted{}
+		TxnFinishCommitted{}
+	missing events:
+		NonRetriableErr{IsCommit:false}
+		RetriableErr{CanAutoRetry:false, IsCommit:false}
+		RetriableErr{CanAutoRetry:true, IsCommit:false}
+		RetriableErr{CanAutoRetry:true, IsCommit:true}
+		SavepointRollback{}
+		TxnCommittedWithShowCommitTimestamp{}
+		TxnFinishAbortedPLpgSQL{}
+		TxnFinishCommittedPLpgSQL{}
+		TxnReleased{}
+		TxnRestart{}
+		TxnStart{ImplicitTxn:false}
+		TxnStart{ImplicitTxn:true}
+		TxnUpgradeToExplicit{}
